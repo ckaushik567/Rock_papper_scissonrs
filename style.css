@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #8CC461;
+}
+.headings h1{
+    font-family: "Roboto", sans-serif;
+    color:#FFFFFF;
+    font-size: 38px;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #FFFFFF;
+    width: 55vw;
+    margin: auto;
+    margin-top: 45px;
+    padding: 2px 15px;
+    border-radius: 10px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#box1 h4{
+    font-family: "Roboto", sans-serif;
+    color:#656565;
+    letter-spacing: 1.5px;
+     line-height: 20px;
+}
+#box1 h1{
+    font-family: "Roboto", sans-serif;
+    color:#252525;
+    font-size: 60px;
+}
+#box1{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;  
+    margin: 10px;
+    width: 9vw;
+    padding: 5px 10px;
+    border-radius: 9px;    
+}
+.two-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line1{
+    width: 15vw;
+    border: 10px solid rgba(0, 0, 0, 0.64);    
+}
+.line2{
+    width: 6.5vw;
+    border: 10px solid rgba(0, 0, 0, 0.64);
+    rotate: -123deg;    
+    position: absolute;
+    top: 388px;
+    left: 42vw;
+
+}
+.line3{
+    width: 6.5vw;
+    border: 10px solid rgba(0, 0, 0, 0.64);
+    rotate: -55deg;    
+    position: absolute;
+    top: 388px;
+    right: 42vw;
+}
+.img-section{
+    text-align: center;
+    width: 27vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 100vw;
+}
+#line{
+    display: inline-block;
+    border: 1px solid black;
+    width: 5vw;
+}
+.game-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.img-section-game{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    gap: 60px;
+    margin-top: 100px;
+    width: 60vw;     
+}
+.win-text h1,p{
+    font-family: "Roboto",sans-serif;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.win-text h1{
+    font-size: 30px;
+}
+.win-text p{
+    font-size: 20px;
+}
+.win-text{
+    text-align: center;
+    margin-top: 60px;
+    line-height:35px;
+}
+
+#img1{
+    border: 16px solid #0074B6;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding:20px 10px;
+    /* margin-right: 50px; */
+    box-shadow: 3px 0px 21px 1px #00000033 inset;
+    box-shadow: -1px 1px 11px 0px #00000059;
+    cursor: pointer;
+}
+#img2{
+    border: 16px solid #BD00FF;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding:20px 30px;
+    /* margin-left: 50px; */
+    box-shadow: 3px 0px 21px 1px #00000033 inset;
+    box-shadow: -1px 1px 11px 0px #00000059;
+    cursor: pointer;
+}
+
+#img3{
+    border: 16px solid #FFA943;
+   background-color: #FFFFFF;
+    border-radius: 50%;
+    padding:15px;
+    /* margin-top: 10px; */
+    box-shadow: 3px 0px 21px 1px #00000033 inset;
+    box-shadow: -1px 1px 11px 0px #00000059;
+    /* margin-top: 40px; */
+    cursor: pointer;
+}
+.commn-sec p{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.commn-sec img{
+    margin-bottom: 45px;
+}
+ .forBg{
+    width: 280px;
+    height: 280px;
+    background: rgba(46, 154, 37, 0.39);
+    box-shadow: 0px 1px 62px 0px rgba(0, 0, 0, 0.13);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .forBg1{
+    width: 240px;
+    height: 240px;
+    background: rgba(29, 168, 43, 0.79);
+    box-shadow: 0px 1px 62px 0px rgba(0, 0, 0, 0.13);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .forBg2{
+    width: 180px;
+    height: 180px;
+    background: rgba(59, 103, 32, 1);
+    box-shadow: 0px 1px 62px 0px rgba(0, 0, 0, 0.13);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .forBg4{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.commn-sec{
+    display: flex;
+    flex-direction: column;
+     justify-content:center;
+    height: 30vh;
+    align-items: center;
+}
+#playag-btn{
+    font-family: "Roboto",sans-serif;
+    width: 10vw;
+    padding: 8px 10px;
+    background-color: #FFFFFF;
+    color:rgba(107, 107, 107, 1);
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+     
+}
+.img-section2 img{
+   border: 16px solid #FFA943;
+   background-color: #FFFFFF;
+    border-radius: 50%;
+    padding:15px;
+    margin-top: 15px;
+    box-shadow: 3px 0px 21px 1px #00000033 inset;
+    box-shadow: -1px 1px 11px 0px #00000059;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#line1{ 
+    position: relative;  
+    bottom: 4.5vw;
+    left: 10vw;
+}
+.btn-section{
+    position: absolute;
+    right: 30px;
+    /* right: 140px; */
+    bottom: 30px;
+}
+.btn-section1{
+    position: absolute;
+    right: 140px;
+    bottom: 30px;
+}
+.btn-section1 button{
+    font-family: "Roboto",sans-serif;
+    width: 7vw;
+    padding: 5px 0px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-section button{
+    font-family: "Roboto",sans-serif;
+    width: 7vw;
+    padding: 5px 0px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.rules-section{
+    position: absolute;
+    right: 75px;
+    bottom: 100px;
+    border: 5px solid #FFFFFF;
+    background-color: #004429;
+    color: #FFFFFF;
+    padding: 7px 35px;
+    width: 280px;
+    border-radius: 6px;
+}
+.rules-section h2{
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+li{
+    list-style-type:square;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+     margin-top: 10px;
+     width: 220px;
+}
+li span{
+    position: relative;
+    top: -10px;
+}
+li::marker{
+    color:#FFD600;
+    font-size: 20px;
+}
+
+.cross-btn button{
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #FF0000;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 50px;
+    /* padding: 0px 10px; */
+    font-family:"dangrek",sans-serif;
+    cursor: pointer;
+}
+.cross-btn{
+    position: absolute;
+    top: -50px;
+    right: -20px;
+}
+.next-btn button{
+    font-family: "Roboto",sans-serif;
+    width: 7vw;
+    padding: 5px 0px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;    
+}
+.next-btn{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+.hurray-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texts-container{
+    width: 60vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trophy-img img{
+    width: 13vw;
+}
+#playag-btn1{
+    font-family: "Roboto",sans-serif;
+    width: 10vw;
+    padding: 8px 10px;
+    background-color: #FFFFFF;
+    color:rgba(107, 107, 107, 1);
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    top: 5vw;
+}
+@keyframes example {
+    0%   {transform: scale(0.5); opacity: 0.5;}
+    25%  {transform: scale(0.5); opacity: 0.5;}
+    /*50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;} */
+  }
+#star-img{
+    width: 7vw;
+    position: absolute;
+    left: 33vw;
+    top: 180px;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#star-img1{
+    width: 7vw;
+    position: absolute;
+    right: 37vw;
+    top: 230px;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.ply-agn-btn button{
+    margin-top: 50px;
+}
+#star-img3{
+    width: 6vw;
+    position: absolute;
+    top: 80px;
+    right:40vw;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#star-img4{
+    width: 4vw;
+    position: absolute;
+    top: 130px;
+    left: 38vw;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#star-img5{
+    width: 2vw;
+    position: absolute;
+    top: 85px;
+    left: 40.5vw;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#star-img6{
+    width: 2vw;
+    position: absolute;
+    top: 110px;
+    left: 48vw;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#star-img7{
+    width: 2vw;
+    position: absolute;
+    top: 152px;
+    right: 37vw;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#star-img8{
+    width: 2vw;
+    position: absolute;
+    top: 310px;
+    left: 40vw;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.trophy-img{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hurray-text h1{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    letter-spacing: 8.5px;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+.hurray-text1 h2{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+     font-size: 30px;
+    color: #FFFFFF;
+}
+
+
