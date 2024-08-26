@@ -45,8 +45,13 @@ body{
     background-color: #FFFFFF;  
     margin: 10px;
     width: 9vw;
-    padding: 5px 10px;
-    border-radius: 9px;    
+    height: 20vh;
+    padding: 0px 60px;
+    border-radius: 9px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
 }
 .two-img{
     display: flex;
@@ -62,7 +67,7 @@ body{
     border: 10px solid rgba(0, 0, 0, 0.64);
     rotate: -123deg;    
     position: absolute;
-    top: 388px;
+    top: 393px;
     left: 42vw;
 
 }
@@ -71,7 +76,7 @@ body{
     border: 10px solid rgba(0, 0, 0, 0.64);
     rotate: -55deg;    
     position: absolute;
-    top: 388px;
+    top: 393px;
     right: 42vw;
 }
 .img-section{
